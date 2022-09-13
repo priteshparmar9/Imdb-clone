@@ -1,9 +1,14 @@
 import './App.css';
 import NavBar from './NavigationBarComponent';
+import BodyComponent from './BodyContent';
 
 function App() {
   return (
-    <NavBar />
+    <div>
+      <NavBar />
+      <BodyComponent />
+    </div>
+    
   );
 }
 
